@@ -1,0 +1,48 @@
+
+#include "stdafx.h"
+
+#ifdef _DEBUG
+#pragma comment(lib, "ippicvmt.lib")
+#pragma comment(lib, "ilmImfd.lib")
+#pragma comment(lib, "libjasperd.lib")
+#pragma comment(lib, "libjpegd.lib")
+#pragma comment(lib, "libpngd.lib")
+#pragma comment(lib, "libtiffd.lib")
+#pragma comment(lib, "libwebpd.lib")
+#pragma comment(lib, "opencv_calib3d300d.lib")
+#pragma comment(lib, "opencv_core300d.lib")
+#pragma comment(lib, "opencv_features2d300d.lib")
+#pragma comment(lib, "opencv_flann300d.lib")
+#pragma comment(lib, "opencv_highgui300d.lib")
+#pragma comment(lib, "opencv_imgcodecs300d.lib")
+#pragma comment(lib, "opencv_imgproc300d.lib")
+#pragma comment(lib, "opencv_ml300d.lib")
+#pragma comment(lib, "opencv_photo300d.lib")
+#pragma comment(lib, "opencv_stitching300d.lib")
+#pragma comment(lib, "opencv_video300d.lib")
+#pragma comment(lib, "zlibd.lib")
+
+#else
+#pragma comment(lib, "ippicvmt.lib")
+#pragma comment(lib, "ilmImf.lib")
+#pragma comment(lib, "libjasper.lib")
+#pragma comment(lib, "libjpeg.lib")
+#pragma comment(lib, "libpng.lib")
+#pragma comment(lib, "libtiff.lib")
+#pragma comment(lib, "libwebp.lib")
+#pragma comment(lib, "opencv_calib3d300.lib")
+#pragma comment(lib, "opencv_core300.lib")
+#pragma comment(lib, "opencv_features2d300.lib")
+#pragma comment(lib, "opencv_flann300.lib")
+#pragma comment(lib, "opencv_highgui300.lib")
+#pragma comment(lib, "opencv_imgcodecs300.lib")
+#pragma comment(lib, "opencv_imgproc300.lib")
+#pragma comment(lib, "opencv_ml300.lib")
+#pragma comment(lib, "opencv_photo300.lib")
+#pragma comment(lib, "opencv_stitching300.lib")
+#pragma comment(lib, "opencv_video300.lib")
+#pragma comment(lib, "zlib.lib")
+#endif
+
+#pragma comment(lib, "Comctl32.lib")
+//#pragma comment(lib, "Shlwapi.lib")
